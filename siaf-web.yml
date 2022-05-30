@@ -1,0 +1,11 @@
+spring:
+  profiles: default
+  application:
+    name: siaf-web
+  datasource:
+    username: root
+    password: root
+server:
+  port: 7040
+siaf:
+  source: Y:\siaf\data\

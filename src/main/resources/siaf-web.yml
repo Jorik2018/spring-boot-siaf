@@ -1,0 +1,21 @@
+spring:
+  profiles: default
+  application:
+    name: siaf-web
+  datasource:
+    username: root
+    password2: A1_A1_pined_
+    password: root
+    url: jdbc:mysql://localhost/siaf
+    url2: jdbc:oledb:Provider=vfpoledb;Data Source=Y:\\siaf\\data;Collating Sequence=general
+  second-datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/production?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=America/Bogota
+    username: root
+    password2: A1_A1_pined_
+    password: root
+server:
+  port: 7040
+siaf:
+  source: Y:\siaf\data\
+  sec_ejec: 726
+  command: 
